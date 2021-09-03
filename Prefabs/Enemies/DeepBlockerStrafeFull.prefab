@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2776747038109754061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3069940230786983687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84a57836916ebe46a5d7de5b0743d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  deathEffect: {fileID: 1908359502037148295, guid: 837e6f42b8fbfec409f19840ad7ad3c2, type: 3}
+--- !u!114 &8835282985632745782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3069940230786983687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206cb70ce93a4614291026f01ca41101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 3559830520686182345, guid: a092fc51a16739e41bcbd9c3a1a86816, type: 3}
+  enemy: {fileID: 3069940230786983687}
+  projectileSpawner: {fileID: 0}
+  spawnFrequency: 0.3
+--- !u!1001 &8442888890658544890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1819845249514825852, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_Name
+      value: DeepBlockerStrafeFull
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6699
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6699
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6699
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819845249514825853, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203985505611103557, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 18aa8357501ce3641a20860b7c293184, type: 2}
+    - target: {fileID: 4053617526755113531, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: damage
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895491418852588539, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3063496996735201929, guid: 06d2ba4124096f544be9a0e896add5cb, type: 3}
+    - target: {fileID: 6895491418852588540, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895491418852588540, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895491418852588541, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_Name
+      value: DeepBlocker Strafer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294744535376600492, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294744535376600492, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+--- !u!1 &3069940230786983687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6895491418852588541, guid: a5b4b98cd9320df4d95af5b151cdd09b, type: 3}
+  m_PrefabInstance: {fileID: 8442888890658544890}
+  m_PrefabAsset: {fileID: 0}
